@@ -1,3 +1,5 @@
 language: c
 compiler: gcc
-script: cd /chessviz && make
+before_install: cd /chessviz
+install: true 
+script: "make"
